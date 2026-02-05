@@ -1,0 +1,42 @@
+.baixar-wrapper {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;      /* centro vertical */
+  justify-content: center;  /* centro horizontal */
+  padding: 16px;            /* evita colar nas bordas no celular */
+}
+
+.container {
+    width: 420px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    color:#fff;
+    padding: 30px 40px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2); 
+    backdrop-filter: blur(50px);  
+}
+
+.container h1 {
+    font-size: 36px;
+    text-align: center;
+    color: #ffffff;
+
+}  
+
+.input-box.clean input {
+    width: 70%;
+    margin: 30px auto;
+    display: block;
+    border: 1px solid #999;
+    border-radius: 2px;
+    padding: 12px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.valor-item {
+    text-align: right;
+    margin-right: 30px;
+    font-size: 18px;
+}

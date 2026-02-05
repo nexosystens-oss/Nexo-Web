@@ -1,0 +1,31 @@
+/* RESET BÁSICO */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* TELA TODA */
+html, body {
+  margin: 0;
+  min-height: 100vh;
+  background-image: url('./img/logo1.png'); 
+  background-size: cover;      /* preenche a tela inteira */
+  background-position: center; /* centraliza */
+  background-repeat: no-repeat;
+}
+
+/* BOTÕES PADRÃO */
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+}
+
+/* INPUT PADRÃO */
+input {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
