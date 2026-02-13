@@ -6,5 +6,7 @@ export const SESSAO = {
     TOKEN_ACESS: null,
     LOGIN: null,
     CONTACAIXA: null,
-    CPFCNPJ: null
+    CPFCNPJ: null,
+    IDEMPRESAMATRIZ: null,
+    IDEMPRESA: null
 };
